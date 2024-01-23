@@ -46,3 +46,14 @@ body{
   #tit-3 {
     color: white;
   }
+  .card {
+    margin-bottom: 20px; /* Set a default margin-bottom for all cards */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    /* Adjust margin-bottom for cards on mobile devices */
+    .card {
+      margin-bottom: 15px; /* You can adjust this value as needed */
+    }
+  }
