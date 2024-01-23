@@ -15,7 +15,6 @@ body{
 
 .card {
     transition: transform 0.3s; /* Add a smooth transition to the transform property */
-    box-shadow: 0 4px 8px rgba(226, 228, 106, 0.8);
   }
   
   .card:hover {
