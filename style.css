@@ -51,9 +51,9 @@ body{
   }
   
   /* Media query for mobile devices */
-  @media (max-width: 767px) {
+  @media (max-width: 750px) {
     /* Adjust margin-bottom for cards on mobile devices */
     .card {
-      margin-bottom: 15px; /* You can adjust this value as needed */
+      margin-bottom: 20px; /* You can adjust this value as needed */
     }
   }
