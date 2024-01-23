@@ -15,10 +15,12 @@ body{
 
 .card {
     transition: transform 0.3s; /* Add a smooth transition to the transform property */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
   }
   
   .card:hover {
     transform: scale(1.05); /* Scale the card on hover */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.8);
   }
   
   /* style.css */
@@ -48,6 +50,7 @@ body{
   }
   .card {
     margin-bottom: 20px; /* Set a default margin-bottom for all cards */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
   }
   
   /* Media query for mobile devices */
